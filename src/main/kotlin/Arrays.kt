@@ -8,5 +8,5 @@ fun main(args:Array<String>){
         println("myArrayOfNames[$i] = " + myArrayOfNames[i])
     }
     var indexNo2:Array<String> = Array(5){"kog";"lia";"dfd";"dfdf";"dfdf"}
-    println("IndexNo2[3] = " + indexNo2[2])
+    println("IndexNo2[3] = ${indexNo2[2]}" )
 }
